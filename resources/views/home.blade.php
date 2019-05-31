@@ -1,3 +1,2 @@
-@extends('layout.main.main')
-
+    @extends('layout.main.main')
 

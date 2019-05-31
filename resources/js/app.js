@@ -6,6 +6,7 @@
 
 require('./bootstrap');
 window.Vue = require('vue');
+// var moment = require('moment');
 
 /**
  * The following block of code may be used to automatically register your
@@ -17,7 +18,6 @@ window.Vue = require('vue');
 
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
-Vue.component('menusite', require('./components/MenuSite.vue').default);
 Vue.component('mainsite', require('./components/Main.vue').default);
 
 /**
